@@ -1,0 +1,98 @@
+form{
+    width: 93%;
+    height: 75vh;
+    margin:20px 20px;
+    padding : 20px;
+    border-radius:8px;
+    background-color:white
+}
+.form-row{
+    display: flex;
+    margin-bottom: 15px;
+}
+.form-col-1{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin-right: 10px;
+}
+.form-input{
+    width: 60%;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 2px solid #EAEAEF
+}
+.form-col-2{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin-left: 10px;
+}
+.file-div{
+    margin-bottom: 20px;
+}
+.file-div input[type="file"]{
+    display: none;
+}
+
+.file-div label{
+    display: inline-block;
+    color: #0F8AD7;
+    border: 2px solid #0F8AD7;
+    padding: 5px 5px;
+    border-radius:8px
+}
+.submit-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #02356A;
+    color: #fff;
+    cursor: pointer;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 9999;
+    width: 22%;
+  }
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .check-icon {
+    color: #61C478;
+    font-size: 48px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000000;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .form-container{
+    z-index: 10;;
+    transition: filter 0.3s ease-in-out;
+  }
+  .opacity-background {
+    opacity: 0.5; 
+}
+  
+  
